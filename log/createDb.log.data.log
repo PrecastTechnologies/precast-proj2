@@ -1,0 +1,51 @@
+WCCILdataSQLite(0), 2026.04.12 12:33:01.555, SYS,  INFO,        1, Manager Start, PROJ, precast-proj-2, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCILdataSQLite(0), 2026.04.12 12:33:01.579, SYS,  INFO,        0, Initialize archive smoothing
+WCCILdataSQLite(0), 2026.04.12 12:33:01.579, SYS,  INFO,        0, Loading DpIdentification
+WCCILdataSQLite(0), 2026.04.12 12:33:01.579, SYS,  INFO,        0, Initializing last value cache
+WCCILdataSQLite(0), 2026.04.12 12:33:01.579, SYS,  INFO,        0, Loading internal datapoints
+WCCILdataSQLite(0), 2026.04.12 12:33:01.579, SYS,  INFO,        0, Initializing Alert Class cache
+WCCILdataSQLite(0), 2026.04.12 12:33:01.580, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdataSQLite(0), 2026.04.12 12:33:01.580, SYS,  INFO,        0, NextGen Archiver will be used...
+WCCILdataSQLite(0), 2026.04.12 12:33:02.706, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:02.707, SYS,  INFO,        0, Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:02.709, SYS,  INFO,        0, Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:02.738, PARAM,WARNING,     7, Datapoint does not exist, UserTable, UserTable, _Users.UserId
+WCCILdataSQLite(0), 2026.04.12 12:33:02.738, PARAM,WARNING,     7, Datapoint does not exist, ManagerTable, ManagerTable, _Managers.Auth.ManType
+WCCILdataSQLite(0), 2026.04.12 12:33:02.848, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 2 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:02.850, SYS,  INFO,        0, Manager (SYS: 1 Driver -num 2 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:03.034, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:03.038, SYS,  INFO,        0, Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:03.267, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:03.268, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:03.289, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:03.443, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:03.509, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:03.511, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:03.538, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:04.021, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:04.122, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:04.127, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:04.159, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:08.533, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:08.603, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:08.605, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:08.621, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:08.712, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:08.783, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:08.792, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:08.823, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:08.852, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:08.927, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:08.929, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:08.948, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:08.951, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:09.131, SYS,  INFO,        4, Connected to (SYS: 1 Ascii -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.12 12:33:09.133, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:09.158, SYS,  INFO,        0, Manager (SYS: 1 Ascii -num 1 CONN: 1) initialised
+WCCILdataSQLite(0), 2026.04.12 12:33:09.179, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ascii -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:09.213, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 2 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:09.244, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:09.354, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILdataSQLite(0), 2026.04.12 12:33:10.367, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdataSQLite(0), 2026.04.12 12:33:11.370, SYS,  INFO,        0, Closing databases
+WCCILdataSQLite(0), 2026.04.12 12:33:11.372, SYS,  INFO,        2, Manager Stop

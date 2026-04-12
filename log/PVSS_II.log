@@ -1,0 +1,2 @@
+WCCOAtoolCreateDbSQLite(1), 2026.04.12 12:33:01.410, SYS,  INFO,      131, PmonTable: illegal entry in progs file C:\Siemens\Automation\WinCC_OA\precast-proj-2\config\progs line 6: useSQLite == 1, WCCILdata -> WCCILdataSQLite
+WCCOAtoolCreateDbSQLite(1), 2026.04.12 12:33:01.411, SYS,  INFO,      131, PmonTable: illegal entry in progs file C:\Siemens\Automation\WinCC_OA\precast-proj-2\config\progs line 7: useSQLite == 1, WCCOAvalarch -> WCCOAnextgenarch
