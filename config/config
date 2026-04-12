@@ -7,9 +7,7 @@ useSQLite = 1
 langs = "en_US.utf8"
 [ui]
 defaultFont = "Noto Sans"
-
-
 [ui]
- versionControl = "git“
- versionControlDiff = "C:/Siemens/Automation/WinCC_OA/precast-proj-2"
+versionControl = "git"
+versionControlDiff = "C:/Siemens/Automation/WinCC_OA/precast-proj-2"
 

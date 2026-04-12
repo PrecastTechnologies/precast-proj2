@@ -1,0 +1,7 @@
+processing file C:\Siemens\Automation\WinCC_OA\3.20\dplist\update_009.dpl
+
+modifying type _OPCUA:
+System DpType (29): Modify msg for type _OPCUA sent.
+Waiting for last response from eventmanager...
+Scanning of file C:\Siemens\Automation\WinCC_OA\3.20\dplist\update_009.dpl is finished (0)
+End of Program
