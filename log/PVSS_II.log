@@ -982,3 +982,59 @@ WCCOAui      (1), 2026.04.16 13:53:36.437, SYS,  INFO,      102, Waiting for use
 WCCOAui      (1), 2026.04.16 13:53:36.439, SYS,  INFO,      103, User names/passwords initialized
 WCCILpmon    (1), 2026.04.16 13:53:36.490, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
 WCCOActrl    (1), 2026.04.16 13:54:03.903, CTRL, INFO,        0, Cyclic updateUserGroups running every 60 minutes.
+WCCILpmon    (1), 2026.04.16 13:56:15.075, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.04.16 13:56:15.075, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.16 13:56:15.076, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.16 13:56:15.077, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.16 13:56:15.077, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCOAui      (1), 2026.04.16 13:56:15.078, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2026.04.16 13:56:15.090, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2026.04.16 13:56:15.105, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.16 13:56:15.105, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.04.16 13:56:15.105, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILsim     (1), 2026.04.16 13:56:15.106, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.16 13:56:15.106, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.04.16 13:56:15.107, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2026.04.16 13:56:15.107, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2026.04.16 13:56:15.112, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (1), 2026.04.16 13:56:15.113, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2026.04.16 13:56:15.113, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.16 13:56:15.113, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.04.16 13:56:15.114, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.16 13:56:15.114, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.04.16 13:56:15.115, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.04.16 13:56:15.116, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2026.04.16 13:56:15.135, SYS,  INFO,        2, Manager Stop
+WCCOAui      (1), 2026.04.16 13:56:16.069, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.16 13:56:16.070, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.04.16 13:56:16.070, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCOAui      (1), 2026.04.16 13:56:16.070, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.16 13:56:16.071, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.04.16 13:56:16.071, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2026.04.16 13:56:16.185, SYS,  INFO,        2, Manager Stop
+WCCOAnextgenarch(118), 2026.04.16 13:56:19.632, IMPL, INFO,        0, Backend plugin thread has finished executing without exception for NGAPostgreSQLBackend
+WCCOAnextgenarch(118), 2026.04.16 13:56:20.222, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAnextgenarch(118), 2026.04.16 13:56:20.222, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.16 13:56:20.222, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.16 13:56:20.223, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2026.04.16 13:56:20.223, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2026.04.16 13:56:20.223, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2026.04.16 13:56:20.226, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.04.16 13:56:20.331, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2026.04.16 13:56:20.442, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2026.04.16 13:56:20.552, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2026.04.16 13:56:20.553, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.16 13:56:20.555, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.16 13:56:20.556, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.16 13:56:20.571, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.04.16 13:56:20.653, SYS,  INFO,       17/pmon, Stopping Manager WCCILdataSQLite(0) with signal SIGTERM
+WCCILdataSQLite(0), 2026.04.16 13:56:21.557, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdataSQLite(0), 2026.04.16 13:56:22.561, SYS,  INFO,        0, Closing databases
+WCCILdataSQLite(0), 2026.04.16 13:56:22.568, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.04.16 13:56:22.577, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2026.04.16 13:56:22.578, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2026.04.16 13:56:23.343, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILproxy   (1), 2026.04.16 13:56:23.344, SYS,  SEVERE,     54, Unexpected state, OS_accept(): , [10038] An operation was attempted on something that is not a socket.
+
+WCCILpmon    (1), 2026.04.16 13:56:23.359, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.04.16 13:56:23.360, SYS,  INFO,        2, Manager Stop
