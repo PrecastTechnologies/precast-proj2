@@ -54,3 +54,17 @@
 2026-04-12 13:05:58.925 EET [13948] LOG:  checkpoint starting: shutdown immediate
 2026-04-12 13:05:58.955 EET [13948] LOG:  checkpoint complete: wrote 41 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.018 s, sync=0.010 s, total=0.031 s; sync files=31, longest=0.001 s, average=0.001 s; distance=143 kB, estimate=143 kB; lsn=0/1C82CD0, redo lsn=0/1C82CD0
 2026-04-12 13:05:58.975 EET [10380] LOG:  database system is shut down
+2026-04-12 13:06:05.256 EET [8900] LOG:  starting PostgreSQL 16.10, compiled by Visual C++ build 1944, 64-bit
+2026-04-12 13:06:05.257 EET [8900] LOG:  listening on IPv6 address "::", port 15432
+2026-04-12 13:06:05.257 EET [8900] LOG:  listening on IPv4 address "0.0.0.0", port 15432
+2026-04-12 13:06:05.261 EET [8900] LOG:  listening on Unix socket "C:/Users/User/AppData/Local/.winccoa/.s.PGSQL.15432"
+2026-04-12 13:06:05.300 EET [23480] LOG:  database system was shut down at 2026-04-12 13:05:58 EET
+2026-04-12 13:06:05.315 EET [8900] LOG:  database system is ready to accept connections
+2026-04-12 13:09:01.497 EET [8900] LOG:  received fast shutdown request
+2026-04-12 13:09:01.499 EET [8900] LOG:  aborting any active transactions
+2026-04-12 13:09:01.499 EET [20040] FATAL:  terminating connection due to administrator command
+2026-04-12 13:09:01.505 EET [8900] LOG:  background worker "logical replication launcher" (PID 2616) exited with exit code 1
+2026-04-12 13:09:01.510 EET [16848] LOG:  shutting down
+2026-04-12 13:09:01.512 EET [16848] LOG:  checkpoint starting: shutdown immediate
+2026-04-12 13:09:01.558 EET [16848] LOG:  checkpoint complete: wrote 85 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.022 s, sync=0.020 s, total=0.048 s; sync files=42, longest=0.001 s, average=0.001 s; distance=333 kB, estimate=333 kB; lsn=0/1CD6208, redo lsn=0/1CD6208
+2026-04-12 13:09:01.596 EET [8900] LOG:  database system is shut down

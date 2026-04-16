@@ -716,3 +716,167 @@ WCCILevent   (0), 2026.04.12 13:06:11.482, SYS,  WARNING,   105, Invalid license
 WCCILevent   (0), 2026.04.12 13:06:11.496, SYS,  WARNING,   105, Invalid license, CodeMeter request for: pararemote (88226) - returned: CmContainer Entry not found, Error 200.
 WCCOAui      (1), 2026.04.12 13:06:16.757, SYS,  SEVERE,    105, Invalid license, No License 'recipe' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.20\scripts\libs\rcp.ctc
 WCCOAui      (1), 2026.04.12 13:06:17.046, SYS,  SEVERE,    105, Invalid license, No License 'maintenance' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.20\scripts\libs\wh_sc.ctc
+WCCOActrl    (1), 2026.04.12 13:06:40.456, CTRL, INFO,        0, Cyclic updateUserGroups running every 60 minutes.
+WCCILpmon    (1), 2026.04.12 13:09:01.140, SYS,  INFO,        3/pmon, Got shutdown command - stopping the project and terminating
+WCCILpmon    (1), 2026.04.12 13:09:01.141, SYS,  INFO,       17/pmon, Stopping Manager WCCOAui(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 13:09:01.141, SYS,  INFO,       17/pmon, Stopping Manager WCCILsim(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 13:09:01.141, SYS,  INFO,       17/pmon, Stopping Manager WCCOActrl(1) with signal SIGTERM
+WCCILpmon    (1), 2026.04.12 13:09:01.142, SYS,  INFO,       17/pmon, Stopping Manager WCCOAnextgenarch(1) with signal SIGTERM
+WCCOAui      (1), 2026.04.12 13:09:01.147, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2026.04.12 13:09:01.156, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILsim     (1), 2026.04.12 13:09:01.172, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILsim     (1), 2026.04.12 13:09:01.172, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.12 13:09:01.172, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.12 13:09:01.172, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Driver -num 1 CONN: 1), Connection closed
+WCCILsim     (1), 2026.04.12 13:09:01.173, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2026.04.12 13:09:01.174, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILsim     (1), 2026.04.12 13:09:01.175, SYS,  INFO,        2, Manager Stop
+WCCOActrl    (1), 2026.04.12 13:09:01.175, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCOActrl    (1), 2026.04.12 13:09:01.177, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOActrl    (1), 2026.04.12 13:09:01.178, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.12 13:09:01.178, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.12 13:09:01.178, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ctrl -num 1 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.04.12 13:09:01.179, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.04.12 13:09:01.179, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOActrl    (1), 2026.04.12 13:09:01.180, SYS,  SEVERE,     54, Unexpected state, CtrlMgr, doConnectionClose, Lost Connection to Event Manager, exiting ...
+WCCOActrl    (1), 2026.04.12 13:09:01.195, SYS,  INFO,        2, Manager Stop
+WCCOAnextgenarch(118), 2026.04.12 13:09:01.284, IMPL, INFO,        0, [FrontendCommandHandler] Frontend sent shutdown command. (from System1:_NGA_B_PostgreSQLBackend) 
+WCCOAui      (1), 2026.04.12 13:09:01.385, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAui      (1), 2026.04.12 13:09:01.385, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.12 13:09:01.385, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.04.12 13:09:01.386, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.12 13:09:01.386, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Ui -num 1 CONN: 1), Connection closed
+WCCOAui      (1), 2026.04.12 13:09:01.387, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAui      (1), 2026.04.12 13:09:01.491, SYS,  INFO,        2, Manager Stop
+WCCOAnextgenarch(118), 2026.04.12 13:09:01.607, IMPL, INFO,        0, Backend plugin thread has finished executing without exception for NGAPostgreSQLBackend
+WCCOAnextgenarch(118), 2026.04.12 13:09:01.954, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCOAnextgenarch(118), 2026.04.12 13:09:01.954, SYS,  INFO,      181, Closing connection to (SYS: 1 Event -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.12 13:09:01.954, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2026.04.12 13:09:01.955, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.12 13:09:01.955, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 120 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2026.04.12 13:09:01.955, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCOAnextgenarch(118), 2026.04.12 13:09:01.958, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.04.12 13:09:02.023, SYS,  INFO,       17/pmon, Stopping Manager WCCILevent(0) with signal SIGTERM
+WCCILevent   (0), 2026.04.12 13:09:02.070, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILevent   (0), 2026.04.12 13:09:02.180, SYS,  INFO,        2, Manager Stop, start cleanup
+WCCILevent   (0), 2026.04.12 13:09:02.180, SYS,  INFO,      181, Closing connection to (SYS: 1 Data -num 0 CONN: 1)
+WCCILdataSQLite(0), 2026.04.12 13:09:02.180, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Event -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.12 13:09:02.180, SYS,  INFO,       39, Connection lost, MAN: (SYS: 1 Data -num 0 CONN: 1), Connection closed
+WCCILevent   (0), 2026.04.12 13:09:02.188, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.04.12 13:09:02.272, SYS,  INFO,       17/pmon, Stopping Manager WCCILdataSQLite(0) with signal SIGTERM
+WCCILdataSQLite(0), 2026.04.12 13:09:03.189, SYS,  INFO,        2, Manager Stop, received signal 15, exiting
+WCCILdataSQLite(0), 2026.04.12 13:09:04.201, SYS,  INFO,        0, Closing databases
+WCCILdataSQLite(0), 2026.04.12 13:09:04.203, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.04.12 13:09:04.296, SYS,  INFO,       17/pmon, Stopping Manager WCCILproxy(1) with signal SIGTERM
+WCCILproxy   (1), 2026.04.12 13:09:04.298, SYS,  INFO,      170, Signal SIGTERM received - exiting ...
+WCCILproxy   (1), 2026.04.12 13:09:04.701, SYS,  INFO,      221, Multiplexing proxy Stop
+WCCILproxy   (1), 2026.04.12 13:09:04.702, SYS,  SEVERE,     54, Unexpected state, OS_accept(): , [10038] An operation was attempted on something that is not a socket.
+
+WCCILpmon    (1), 2026.04.12 13:09:04.705, SYS,  INFO,       15/pmon, Completely stopped the project - terminating
+WCCILpmon    (1), 2026.04.12 13:09:04.706, SYS,  INFO,        2, Manager Stop
+WCCILpmon    (1), 2026.04.16 13:37:08.949, SYS,  INFO,        1, Manager Start, START_MODE
+WCCILpmon    (1), 2026.04.16 13:37:09.072, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILdataSQLite.exe" -PROJ "precast-proj-2" -pmonIndex 1 
+WCCILdataSQLite(0), 2026.04.16 13:37:09.163, SYS,  INFO,        1, Manager Start, PROJ, precast-proj-2, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCILdataSQLite(0), 2026.04.16 13:37:09.206, SYS,  INFO,        0, Initialize archive smoothing
+WCCILdataSQLite(0), 2026.04.16 13:37:09.207, SYS,  INFO,        0, Loading DpIdentification
+WCCILdataSQLite(0), 2026.04.16 13:37:09.223, SYS,  INFO,        0, Initializing last value cache
+WCCILdataSQLite(0), 2026.04.16 13:37:09.226, SYS,  INFO,        0, Loading internal datapoints
+WCCILdataSQLite(0), 2026.04.16 13:37:09.227, SYS,  INFO,        0, Initializing Alert Class cache
+WCCILdataSQLite(0), 2026.04.16 13:37:09.228, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILdataSQLite(0), 2026.04.16 13:37:09.228, SYS,  INFO,        0, NextGen Archiver will be used...
+WCCILpmon    (1), 2026.04.16 13:37:09.273, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAnextgenarch.exe" -PROJ "precast-proj-2" -pmonIndex 2 
+WCCOAnextgenarch(0), 2026.04.16 13:37:09.376, SYS,  INFO,        1, Manager Start, PROJ, precast-proj-2, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCOAnextgenarch(118), 2026.04.16 13:37:09.379, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAnextgenarch(118), 2026.04.16 13:37:09.390, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:09.401, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 120 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:09.451, SYS,  INFO,        0, Manager (SYS: 1 Data -num 120 CONN: 1) initialised
+WCCOAnextgenarch(118), 2026.04.16 13:37:09.452, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAnextgenarch(118), 2026.04.16 13:37:10.454, IMPL, INFO,        0, Starting backend plugin NGAPostgreSQLBackend for "System1:_NGA_B_PostgreSQLBackend"
+WCCOAnextgenarch(118), 2026.04.16 13:37:10.482, IMPL, INFO,        0, PostgreSQL backend has been connected to frontend without encryption (from System1:_NGA_B_PostgreSQLBackend) 
+WCCILpmon    (1), 2026.04.16 13:37:10.517, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILevent.exe" -PROJ "precast-proj-2" -pmonIndex 3 
+WCCOAnextgenarch(118), 2026.04.16 13:37:10.591, IMPL, INFO,        0, PostgreSQL backend has established connection with database 127.0.0.1:15432 (from System1:_NGA_B_PostgreSQLBackend) 
+WCCILevent   (0), 2026.04.16 13:37:10.673, SYS,  INFO,        1, Manager Start, PROJ, precast-proj-2, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCILevent   (0), 2026.04.16 13:37:10.673, SYS,  INFO,      108, License information, Wibu CodeMeter License
+WCCOAnextgenarch(118), 2026.04.16 13:37:10.778, IMPL, INFO,        0, [DbConnectionConfigProvider] PostgreSQL database schema version is 2.0. (from System1:_NGA_B_PostgreSQLBackend) 
+WCCOAnextgenarch(118), 2026.04.16 13:37:10.885, IMPL, INFO,        0, [SegmentManager] Successfuly executed CLUSTER on table _event_2_a with index btree_element_id_ts__event_2_a (from System1:_NGA_B_PostgreSQLBackend) 
+WCCILevent   (0), 2026.04.16 13:37:11.704, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:11.706, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:11.707, SYS,  SEVERE,    105, Invalid license, LAPTOP-SF9TOL9F: No license found
+WCCILevent   (0), 2026.04.16 13:37:11.707, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILevent   (0), 2026.04.16 13:37:11.715, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:11.719, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:11.720, SYS,  INFO,        0, Manager (SYS: 1 Data -num 0 CONN: 1) initialised
+WCCILevent   (0), 2026.04.16 13:37:11.726, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:11.727, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:11.728, SYS,  SEVERE,    105, Invalid license, LAPTOP-SF9TOL9F: No license found
+WCCILdataSQLite(0), 2026.04.16 13:37:11.756, SYS,  INFO,        0, Manager (SYS: 1 Event -num 0 CONN: 1) initialised
+WCCILevent   (0), 2026.04.16 13:37:11.757, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILevent   (0), 2026.04.16 13:37:11.781, SYS,  INFO,      169, Initialize 72 dp-functions
+WCCILevent   (0), 2026.04.16 13:37:11.798, SYS,  INFO,      168, Initialize 137 alerts
+WCCILevent   (0), 2026.04.16 13:37:11.802, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:11.802, SYS,  SEVERE,    105, Invalid license, LAPTOP-SF9TOL9F: No license found
+WCCILevent   (0), 2026.04.16 13:37:11.803, SYS,  WARNING,   105, Invalid license, CodeMeter request for: event (9921) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:11.805, SYS,  SEVERE,    105, Invalid license, Eventmanager will shutdown after the demo period of 7200 seconds
+WCCILevent   (0), 2026.04.16 13:37:11.805, SYS,  INFO,      103, User names/passwords initialized
+WCCILdataSQLite(0), 2026.04.16 13:37:11.805, SYS,  INFO,      103, User names/passwords initialized
+WCCOAnextgenarch(118), 2026.04.16 13:37:11.805, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAnextgenarch(118), 2026.04.16 13:37:11.811, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILevent   (0), 2026.04.16 13:37:11.811, SYS,  WARNING,   105, Invalid license, LAPTOP-SF9TOL9F: No license found, Running as demo version, data
+WCCILevent   (0), 2026.04.16 13:37:11.815, SYS,  INFO,        4, Connected to (SYS: 1 Data -num 120 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:11.817, SYS,  INFO,        0, Manager (SYS: 1 Data -num 120 CONN: 1) initialised
+WCCILpmon    (1), 2026.04.16 13:37:11.876, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILproxy.exe" -PROJ "precast-proj-2" -pmonIndex 4 
+WCCILproxy   (1), 2026.04.16 13:37:11.943, SYS,  INFO,      220, Multiplexing proxy Start, PROJ, precast-proj-2, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCILproxy   (1), 2026.04.16 13:37:11.952, SYS,  INFO,        0, Can maintain up to 512 concurrent connections
+WCCOAnextgenarch(118), 2026.04.16 13:37:11.979, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2026.04.16 13:37:12.089, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOActrl.exe" -PROJ "precast-proj-2" -pmonIndex 5 -num 1 -f pvss_scripts.lst
+WCCOActrl    (1), 2026.04.16 13:37:12.157, SYS,  INFO,        1, Manager Start, PROJ, precast-proj-2, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCOActrl    (1), 2026.04.16 13:37:12.158, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOActrl    (1), 2026.04.16 13:37:12.167, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:12.172, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:12.177, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2026.04.16 13:37:12.177, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOActrl    (1), 2026.04.16 13:37:12.179, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOActrl    (1), 2026.04.16 13:37:12.183, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILevent   (0), 2026.04.16 13:37:12.183, SYS,  WARNING,   105, Invalid license, LAPTOP-SF9TOL9F: No license found, Running as demo version, ctrl
+WCCILevent   (0), 2026.04.16 13:37:12.188, SYS,  INFO,        4, Connected to (SYS: 1 Ctrl -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:12.193, SYS,  INFO,        0, Manager (SYS: 1 Ctrl -num 1 CONN: 1) initialised
+WCCOActrl    (1), 2026.04.16 13:37:12.193, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOActrl    (1), 2026.04.16 13:37:12.194, SYS,  INFO,      103, User names/passwords initialized
+WCCILpmon    (1), 2026.04.16 13:37:12.305, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCILsim.exe" -PROJ "precast-proj-2" -pmonIndex 6 
+WCCILsim     (1), 2026.04.16 13:37:12.371, SYS,  INFO,        1, Manager Start, PROJ, precast-proj-2, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCOActrl    (1), 2026.04.16 13:37:12.375, CTRL, INFO,        0, DB Version Update, 3.20 DB version 9, nothing to do
+WCCILsim     (1), 2026.04.16 13:37:12.429, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCILsim     (1), 2026.04.16 13:37:12.440, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:12.448, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:12.454, SYS,  INFO,        0, Manager (SYS: 1 Driver -num 1 CONN: 1) initialised
+WCCILsim     (1), 2026.04.16 13:37:12.455, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCILsim     (1), 2026.04.16 13:37:12.455, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCILsim     (1), 2026.04.16 13:37:12.476, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILevent   (0), 2026.04.16 13:37:12.529, SYS,  WARNING,   105, Invalid license, LAPTOP-SF9TOL9F: No license found, Running as demo version, driver
+WCCILevent   (0), 2026.04.16 13:37:12.536, SYS,  INFO,        4, Connected to (SYS: 1 Driver -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILsim     (1), 2026.04.16 13:37:12.537, SYS,  SEVERE,    105, Invalid license, Driver will shutdown after the demo period of 7200 seconds
+WCCILsim     (1), 2026.04.16 13:37:12.538, SYS,  INFO,      156, Driver initialization finished.
+WCCILpmon    (1), 2026.04.16 13:37:12.631, SYS,  INFO,        1, Manager Start, "C:\Siemens\Automation\WinCC_OA\3.20\bin\WCCOAui.exe" -PROJ "precast-proj-2" -pmonIndex 7 -m gedi
+WCCOAui      (0), 2026.04.16 13:37:13.105, SYS,  INFO,        1, Manager Start, PROJ, precast-proj-2, V 3.20 - 3.20.10 platform Windows AMD64 linked at Nov  7 2025 20:32:42 (77ea8a637e)
+WCCOAui      (0), 2026.04.16 13:37:14.646, SYS,  INFO,        3, Trying to connect to (SYS: 0 Data -num 0 CONN: 1) @ localhost:4897
+WCCOAui      (0), 2026.04.16 13:37:14.661, SYS,  INFO,        4, Connected to (SYS: 0 Data -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:14.671, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:14.680, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2026.04.16 13:37:14.683, SYS,  INFO,        6, Initialization by Data Manager finished
+WCCOAui      (1), 2026.04.16 13:37:14.685, SYS,  INFO,        3, Trying to connect to (SYS: 1 Event -num 0 CONN: 1) @ localhost:4998
+WCCOAui      (1), 2026.04.16 13:37:14.708, SYS,  INFO,        4, Connected to (SYS: 1 Event -num 0 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILevent   (0), 2026.04.16 13:37:14.713, SYS,  WARNING,   105, Invalid license, CodeMeter request for: pararemote (88226) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:14.713, SYS,  WARNING,   105, Invalid license, LAPTOP-SF9TOL9F: No license found, Running as demo version, ui
+WCCILevent   (0), 2026.04.16 13:37:14.723, SYS,  INFO,        4, Connected to (SYS: 1 Ui -num 1 CONN: 1) @ LAPTOP-SF9TOL9F (::1)
+WCCILdataSQLite(0), 2026.04.16 13:37:14.745, SYS,  INFO,        0, Manager (SYS: 1 Ui -num 1 CONN: 1) initialised
+WCCOAui      (1), 2026.04.16 13:37:14.748, SYS,  INFO,      102, Waiting for user names/passwords
+WCCOAui      (1), 2026.04.16 13:37:14.759, SYS,  INFO,      103, User names/passwords initialized
+WCCILevent   (0), 2026.04.16 13:37:14.780, SYS,  WARNING,   105, Invalid license, CodeMeter request for: pararemote (88226) - returned: CmContainer Entry not found, Error 200.
+WCCILpmon    (1), 2026.04.16 13:37:14.791, SYS,  INFO,        9/pmon, The project is up and running. Entering monitor mode
+WCCILevent   (0), 2026.04.16 13:37:16.567, SYS,  WARNING,   105, Invalid license, CodeMeter request for: pararemote (88226) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:16.609, SYS,  WARNING,   105, Invalid license, CodeMeter request for: pararemote (88226) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:16.625, SYS,  WARNING,   105, Invalid license, CodeMeter request for: pararemote (88226) - returned: CmContainer Entry not found, Error 200.
+WCCILevent   (0), 2026.04.16 13:37:16.645, SYS,  WARNING,   105, Invalid license, CodeMeter request for: pararemote (88226) - returned: CmContainer Entry not found, Error 200.
+WCCOAui      (1), 2026.04.16 13:37:21.321, SYS,  SEVERE,    105, Invalid license, No License 'recipe' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.20\scripts\libs\rcp.ctc
+WCCOAui      (1), 2026.04.16 13:37:21.611, SYS,  SEVERE,    105, Invalid license, No License 'maintenance' for the ctrl script, C:\Siemens\Automation\WinCC_OA\3.20\scripts\libs\wh_sc.ctc
+WCCOActrl    (1), 2026.04.16 13:37:45.397, CTRL, INFO,        0, Cyclic updateUserGroups running every 60 minutes.
