@@ -1,6 +1,6 @@
 [general]
 pvss_path = "C:/Siemens/Automation/WinCC_OA/3.20"
-proj_path = "C:/Siemens/Automation/WinCC_OA/precast-proj-2"
+proj_path = "C:/Siemens/Automation/WinCC_OA/precast-proj2"
 proj_version = "3.20"
 useNGA = 1
 useSQLite = 1
